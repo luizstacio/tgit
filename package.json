@@ -1,0 +1,39 @@
+{
+  "name": "tgit",
+  "version": "0.0.2",
+  "description": "Integration trello with git",
+  "main": "index.js",
+  "dependencies": {
+    "commander": "~2.2.0",
+    "jade": "~1.3.1",
+    "json-format": "~0.0.1",
+    "node-trello": "~0.1.5",
+    "portfinder": "~0.2.1",
+    "oauth": "~0.9.12",
+    "select-shell": "~0.0.2",
+    "colors": "~0.6.2",
+    "open": "~0.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:luizstacio/tgit.git"
+  },
+  "keywords": [
+    "trello",
+    "git",
+    "tgit",
+    "trello",
+    "git",
+    "task",
+    "manager"
+  ],
+  "author": "luizstacio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luizstacio/tgit/issues"
+  },
+  "homepage": "https://github.com/luizstacio/tgit",
+  "bin": {
+    "tgit": "./index.js"
+  }
+}
