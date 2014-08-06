@@ -1,0 +1,14 @@
+doctype html
+html(lang="en")
+  head
+    title= 'Config trello-git'
+    link(rel='stylesheet', href='style.css')
+  body
+    h1 Settings TGit
+    form(action='saveConfig')
+      label(for="board")
+        | Select board:
+      select(id="board", name="board")
+        each board in boards
+          option(value=board.id)=board.name
+      input(type="submit")
