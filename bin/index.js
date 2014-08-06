@@ -10,7 +10,6 @@ var rl = readline.createInterface({
     });
 var preConfig = require('../config').tgitconfig;
 
-
 (function(){
     fs.stat(pathApp + '/tgitconfig.json', function (err, stats) {
       if (err) {
