@@ -1,21 +1,21 @@
 #Tgit
 
-Tgit é um utilitário para integrar o gerenciador de tarefas [Trello](https://trello.com/) com qualquer repositório git. Ele lhe possibilita associar um commit com uma ou mais tarefas e ou move-las.
+Tgit is an utility to integrate [Trello](https://trello.com/) task manager with any git repository. It enables to associate a commit with one or more tasks and/or move them.
 
-###Instalando
-Para instalar basta executar o comando
+###Installing
+To install it, just execute the following command.
 ```
   npm install -g tgit
 ```
 
-###Autenticando e selecionando projeto
-Autentique pelo navegador selecione o projeto e clique em salvar.
+###Authenticating and selecting the project.
+Authenticate through the browser, select the project, then click in save.
 ```
   tgit auth
 ```
 
-###Utilizando
-Você pode executar todos os comandos já utilizados com git, porém ao executar o comando push o utilitário listara as tarefas presentes no dashboard configurado.
+###Using
+You can execute all of commands yet used with git, however, when execute push command the utility will list all of tasks present in the configurated dashboard.
 ```
   tgit push origin master
 ```
